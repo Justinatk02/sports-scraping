@@ -3,7 +3,7 @@ import scrapy
 class NbaSpider(scrapy.Spider):
   name = "espn"
   start_urls = [
-    "https://www.espn.com/ncaaf/lines",
+    "https://www.espn.com/college-football/lines",
   ]
 
   def parse(self, response):
